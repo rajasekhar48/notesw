@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 
   (process.env.NODE_ENV === 'production' 
-    ? 'https://notesw.vercel.app/api'  // Replace with your actual backend URL
+    ? 'https://notes-app-backend-cbab.onrender.com/api'  // Replace with your actual backend URL
     : 'http://localhost:5000/api');
 
 const api = axios.create({
