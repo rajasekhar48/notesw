@@ -19,7 +19,7 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
   process.env.FRONTEND_URL,
   'http://localhost:3000',
-  'https://your-app-name.vercel.app', // Add your Vercel domain here
+  'https://notesw.vercel.app', // Add your Vercel domain here
 ];
 
 app.use(cors({
